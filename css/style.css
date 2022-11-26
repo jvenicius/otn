@@ -18,6 +18,10 @@ li {
   font-size: 14px;
 }
 
+ul li {
+  list-style: none;
+}
+
 /* Barra de navegação */
 
 .navbar-brand {
@@ -90,4 +94,40 @@ li {
 
 .carousel-indicators .active {
   background-color: #65daf9;
+}
+
+/* Sobre a empresa */
+
+#about-area {
+  background-color: #f9f9f9;
+}
+
+.main-title {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.about-title {
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#about-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#about-list li {
+  line-height: 30px;
+}
+
+#about-list i {
+  color: #65daf9;
+  margin-right: 15px;
 }
